@@ -4,7 +4,7 @@ ENV RANCHER_VERSION "v2.2.0"
 ENV KUBECTL_VERSION "v1.16.0"
 
 # Install extra package
-RUN apk --update add curl tar bash && \
+RUN apk --update add curl tar bash build-base && \
     rm -rf /var/cache/apk/*
 
 # Install Rancher cli
