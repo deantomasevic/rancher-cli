@@ -1,7 +1,7 @@
 FROM docker:stable
 
-ENV RANCHER_VERSION "v2.2.0"
-ENV KUBECTL_VERSION "v1.16.0"
+ENV RANCHER_VERSION "v2.4.10"
+ENV KUBECTL_VERSION "v1.19.7"
 
 # Install extra package
 RUN apk --update add curl tar bash build-base && \
